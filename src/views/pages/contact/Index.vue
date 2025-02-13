@@ -169,7 +169,6 @@
             this.$store.dispatch("contact/fetchItems");
         },
         mounted() {
-            console.log('test');
             this.isMounted = true;
         },
     };

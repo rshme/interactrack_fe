@@ -53,7 +53,8 @@ const router = new Router({
           name: 'dashboard-analytics',
           component: () => import('./views/DashboardAnalytics.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'editor',
+            auth: true
           }
         },
         {
@@ -69,7 +70,17 @@ const router = new Router({
           name: 'contact',
           component: () => import('./views/pages/contact/Index.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'editor',
+            auth: true
+          }
+        },
+        {
+          path: '/interaction',
+          name: 'interaction',
+          component: () => import('./views/pages/interaction/Index.vue'),
+          meta: {
+            rule: 'editor',
+            auth: true
           }
         },
       ]

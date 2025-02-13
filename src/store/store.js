@@ -24,6 +24,7 @@ Vue.use(Vuex)
 // import moduleEmail from './email/moduleEmail.js'
 import moduleAuth from './auth/moduleAuth.js'
 import moduleContact from './contact/moduleContact.js'
+import moduleInteraction from './interaction/moduleInteraction.js'
 // import moduleECommerce from './eCommerce/moduleECommerce.js'
 
 
@@ -39,6 +40,7 @@ export default new Vuex.Store({
     // email: moduleEmail,
     auth: moduleAuth,
     contact: moduleContact,
+    interaction: moduleInteraction,
     // eCommerce: moduleECommerce
   },
   strict: process.env.NODE_ENV !== 'production'

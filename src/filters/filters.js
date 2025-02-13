@@ -69,6 +69,20 @@ Vue.filter('month', function (val, showYear = true) {
 
 })
 
+Vue.filter('formatDate', function(value) {
+  if (!value) return ''
+  
+  // Create a new Date object
+  const date = new Date(value)
+
+  // Use toLocaleDateString to format the date
+  return date.toLocaleDateString('en-US', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+  })
+})
+
 Vue.filter('csv', function (value) {
   return value.join(', ')
 })
