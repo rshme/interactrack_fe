@@ -34,57 +34,37 @@ export default [
     i18n: 'Dashboard'
   },
   {
-    url: '/user',
-    name: 'User',
-    icon: 'UserIcon',
-    i18n: 'User'
-  },
-  {
-    header: 'Contact Management',
+    header: 'Apps Management',
     icon: 'UsersIcon',
-    i18n: 'Contact Management',
+    i18n: 'Apps Management',
     items: [
       {
         url: '/contact',
         name: 'Contact',
         slug: 'contact',
         icon: 'BookIcon',
-        i18n: 'Kontak'
+        i18n: 'Contacts'
       },
       {
         url: '/interaction',
         name: 'Interaction',
         slug: 'interaction',
         icon: 'BookOpenIcon',
-        i18n: 'Catatan Interaksi'
-      }
-    ]
-  },
-  {
-    header: 'Sales Management',
-    icon: 'PackageIcon',
-    i18n: 'Sales Management',
-    items: [
-      {
-        url: '/quotation',
-        name: 'Faktur',
-        slug: 'quotation',
-        icon: 'FileTextIcon',
-        i18n: 'Faktur'
+        i18n: 'Interaction Notes'
       },
       {
         url: '/invoice',
         name: 'Invoices',
         slug: 'invoices',
         icon: 'FileTextIcon',
-        i18n: 'Invoice'
+        i18n: 'Invoices'
       },
       {
         url: '/report',
         name: 'Report',
         slug: 'report',
         icon: 'FileIcon',
-        i18n: 'Laporan Penjualan'
+        i18n: 'Sales Reports'
       }
     ]
   }

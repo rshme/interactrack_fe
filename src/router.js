@@ -83,6 +83,15 @@ const router = new Router({
             auth: true
           }
         },
+        {
+          path: '/invoice',
+          name: 'invoice',
+          component: () => import('./views/pages/invoice/Index.vue'),
+          meta: {
+            rule: 'editor',
+            auth: true
+          }
+        },
       ]
     },
     // =============================================================================
