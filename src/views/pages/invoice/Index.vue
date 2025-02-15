@@ -48,7 +48,7 @@
                 <vs-th sort-key="invoice_number">Invoice Number</vs-th>
                 <vs-th sort-key="customer_name">Customer Name</vs-th>
                 <vs-th sort-key="sales_name">Sales Name</vs-th>
-                <vs-th sort-key="amount">Amount</vs-th>
+                <vs-th sort-key="amount">($) Amount</vs-th>
                 <vs-th sort-key="invoice_date">Invoice Date</vs-th>
                 <vs-th sort-key="due_date">Due Date</vs-th>
                 <vs-th sort-key="status">Status</vs-th>

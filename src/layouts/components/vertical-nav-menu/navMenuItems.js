@@ -28,7 +28,7 @@ export default [
   //   i18n: "Email",
   // },
   {
-    url: '/dashboard/analytics',
+    url: '/dashboard',
     name: 'Dashboard',
     icon: 'HomeIcon',
     i18n: 'Dashboard'
@@ -58,13 +58,6 @@ export default [
         slug: 'invoices',
         icon: 'FileTextIcon',
         i18n: 'Invoices'
-      },
-      {
-        url: '/report',
-        name: 'Report',
-        slug: 'report',
-        icon: 'FileIcon',
-        i18n: 'Sales Reports'
       }
     ]
   }
