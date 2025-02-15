@@ -90,7 +90,7 @@
                         </vs-td>
 
                         <vs-td>
-                            <p>{{ tr.notes }}</p>
+                            <p>{{ tr.notes ? tr.notes : '-' }}</p>
                         </vs-td>
 
                         <vs-td class="whitespace-no-wrap">

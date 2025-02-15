@@ -49,7 +49,6 @@
                 <vs-th sort-key="sales_name">Sales Name</vs-th>
                 <vs-th sort-key="interaction_type">Interaction Type</vs-th>
                 <vs-th sort-key="subject">Subject</vs-th>
-                <vs-th sort-key="description">Description</vs-th>
                 <vs-th sort-key="interaction_date">Interaction Date</vs-th>
                 <vs-th sort-key="status">Status</vs-th>
                 <vs-th sort-key="outcome">Outcome</vs-th>
@@ -73,10 +72,6 @@
 
                         <vs-td>
                             <p>{{ tr.subject | title }}</p>
-                        </vs-td>
-
-                        <vs-td>
-                            <p>{{ tr.description }}</p>
                         </vs-td>
 
                         <vs-td>
