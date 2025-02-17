@@ -1,26 +1,33 @@
-# modern
+InteracTrack CRM Installation Guide
+===================================
 
-## Project setup
-```
-npm install
-```
+Welcome to the **InteracTrack CRM** project! Follow the instructions below to set up and run the project on your local machine.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Prerequisites
+-------------
 
-### Compiles and minifies for production
-```
-npm run build
-```
+*   Make sure you have **npm version 12.18.3** installed.
+*   Ensure that **Vue CLI 2** is installed globally on your machine.
 
-### Run your tests
-```
-npm run test
-```
+Installation Steps
+------------------
 
-### Lints and fixes files
-```
-npm run lint
-```
+1.  Clone the repository to your local machine:
+
+    git clone https://github.com/rshme/interactrack_fe.git
+
+2.  Navigate to the project directory:
+
+    cd interactrack_fe
+
+3.  Install the necessary dependencies using npm:
+
+    npm install
+
+4.  Once the installation is complete, run the following command to start the development server:
+
+    npm run serve
+
+5.  After the server starts, open your browser and navigate to **http://localhost:8080** to see the application running.
+
+6. Don't forget to install & run the backend service for this project at https://github.com/rshme/interactrack_be
