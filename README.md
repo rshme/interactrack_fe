@@ -6,7 +6,7 @@ Welcome to the **InteracTrack CRM** project! Follow the instructions below to se
 Prerequisites
 -------------
 
-*   Make sure you have **npm version 12.18.3** installed.
+*   Make sure you have **node version 12.18.3** and **npm version 6.14.6** installed.
 *   Ensure that **Vue CLI 2** is installed globally on your machine.
 
 Installation Steps
