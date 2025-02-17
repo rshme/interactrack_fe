@@ -30,4 +30,6 @@ Installation Steps
 
 5.  After the server starts, open your browser and navigate to **http://localhost:8080** to see the application running.
 
-6. Don't forget to install & run the backend service for this project at https://github.com/rshme/interactrack_be
+6.  Login to admin dashboard using user that registered in users table at backend user seeder. Email : admin@example.com & Password : password
+
+7. Don't forget to install & run the backend service for this project at https://github.com/rshme/interactrack_be
